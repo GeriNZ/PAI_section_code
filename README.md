@@ -23,3 +23,23 @@ Everything runs in your browser. No installation on your computer or GPU is need
 - **Explore:** optionally change the starting guess or step size and see what happens.
 
 You can also [read the notebook and its saved charts on GitHub](Week_3_Where_Am_I_Gradient_Ascent.ipynb) without running the code.
+
+## Week 5: Inside the Mystery 8
+
+Train a small **784 → 4 → 1 neural network in PyTorch** to recognize 8s, then inspect what its hidden and output layers learned.
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GeriNZ/PAI_section_code/blob/main/Week_5_Inside_the_Mystery_8.ipynb)
+
+The notebook includes:
+
+- Hidden-neuron weight maps before and after training.
+- A picture's journey through the hidden activations and output calculation.
+- Real digits that strongly activate each neuron.
+- Output weights that support or oppose an “8” prediction.
+- The section's three strategies for adding pixels, with the same starting image for comparison.
+
+This notebook trains its own model with the section's small-network architecture. Its neuron roles, probabilities, and pixel counts may differ from the section demonstrations.
+
+Open it in Colab and choose **Runtime → Run all**. MNIST downloads automatically when local files are unavailable; no GPU or local installation is needed. Locally, the notebook also recognizes the data in the repository's `minst` folder. Save a copy in Drive to keep your changes.
+
+You can also [read the notebook and its saved charts on GitHub](Week_5_Inside_the_Mystery_8.ipynb).
